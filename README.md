@@ -1,10 +1,13 @@
-# Project name
+# Hands on Linx 6 - File Importer
 
 ## Description
 
-## Installation
+[Linx](https://linx.software/) solution created for illistrating the Linx 6 designer. The solution has is a very simplefile reader, that reads a csv file and makes the data availalbe via a REST service. 
 
 ## Usage
+
+The solution can be downloaded as is. Pleas note that the following will have to be set in order for the solution to run:
+Please set the File path on the TextFileWrite component (GetCustomerData) to the file location of the downloaded csv file. 
 
 ## Contributing
 
