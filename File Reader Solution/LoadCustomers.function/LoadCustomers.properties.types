@@ -1,0 +1,16 @@
+[
+  {
+    "Type": "Generated",
+    "Value": {
+      "Id": "YO8Y",
+      "Properties": [
+        {
+          "Id": "bPhL",
+          "Name": "Customers",
+          "Type": "List:Custom:EsLW",
+          "Access": "ReadWrite"
+        }
+      ]
+    }
+  }
+]

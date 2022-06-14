@@ -1,0 +1,26 @@
+{
+  "Properties": [
+    {
+      "Id": "Source",
+      "Type": "List:Generated:C3Db",
+      "ValueUsage": "RuntimeRead",
+      "Value": {
+        "Expression": "LoadCustomers.Customers",
+        "CompiledExpression": "={0}",
+        "Type": "List:Custom:EsLW"
+      },
+      "ValueType": "Linx.CSharpExpression"
+    },
+    {
+      "Id": "Target",
+      "Type": "List:Generated:C3Db",
+      "ValueUsage": "RuntimeWrite",
+      "Value": {
+        "Expression": "$.Result.ResponseBody",
+        "CompiledExpression": "={0}",
+        "Type": "List:Generated:C3Db"
+      },
+      "ValueType": "Linx.CSharpExpression"
+    }
+  ]
+}

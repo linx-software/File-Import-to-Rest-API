@@ -1,0 +1,22 @@
+{
+  "Properties": [
+    {
+      "Id": "Source",
+      "Type": "Generated:YO8Y",
+      "ValueUsage": "RuntimeRead",
+      "Value": "{\"Customers\":[]}",
+      "ValueType": "String"
+    },
+    {
+      "Id": "Target",
+      "Type": "Generated:YO8Y",
+      "ValueUsage": "RuntimeWrite",
+      "Value": {
+        "Expression": "$.Result",
+        "CompiledExpression": "={0}",
+        "Type": "Generated:YO8Y"
+      },
+      "ValueType": "Linx.CSharpExpression"
+    }
+  ]
+}

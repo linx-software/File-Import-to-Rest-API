@@ -1,0 +1,56 @@
+{
+  "Properties": [
+    {
+      "Id": "List",
+      "Type": "List:Custom:EsLW",
+      "ValueUsage": "RuntimeRead",
+      "Value": {
+        "Expression": "List_of_Customers",
+        "CompiledExpression": "={0}",
+        "Type": "List:Custom:EsLW"
+      },
+      "ValueType": "Linx.CSharpExpression"
+    },
+    {
+      "Id": "Value",
+      "Type": "Custom:EsLW",
+      "ValueUsage": "RuntimeRead",
+      "Value": {
+        "ParsedExpression": "{\"Name\":{\"LinxExpression\":\"[PARSED]\"}, \"Number\":{\"LinxExpression\":\"[PARSED]\"}, \"Surname\":{\"LinxExpression\":\"[PARSED]\"}}",
+        "ExpressionPlaceholders": [
+          {
+            "typePath": [
+              "Name"
+            ],
+            "expression": {
+              "Expression": "GetCustomerData.ForEachLine.LineContents.Name",
+              "CompiledExpression": "={0}",
+              "Type": "Compiled:String"
+            }
+          },
+          {
+            "typePath": [
+              "Number"
+            ],
+            "expression": {
+              "Expression": "GetCustomerData.ForEachLine.LineContents.Number",
+              "CompiledExpression": "={0}",
+              "Type": "Compiled:String"
+            }
+          },
+          {
+            "typePath": [
+              "Surname"
+            ],
+            "expression": {
+              "Expression": "GetCustomerData.ForEachLine.LineContents.Surname",
+              "CompiledExpression": "={0}",
+              "Type": "Compiled:String"
+            }
+          }
+        ]
+      },
+      "ValueType": "Linx.JsonExpression"
+    }
+  ]
+}

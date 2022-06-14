@@ -1,0 +1,26 @@
+{
+  "Properties": [
+    {
+      "Id": "Source",
+      "Type": "List:Custom:EsLW",
+      "ValueUsage": "RuntimeRead",
+      "Value": {
+        "Expression": "List_of_Customers",
+        "CompiledExpression": "={0}",
+        "Type": "List:Custom:EsLW"
+      },
+      "ValueType": "Linx.CSharpExpression"
+    },
+    {
+      "Id": "Target",
+      "Type": "List:Custom:EsLW",
+      "ValueUsage": "RuntimeWrite",
+      "Value": {
+        "Expression": "$.Result.Customers",
+        "CompiledExpression": "={0}",
+        "Type": "List:Custom:EsLW"
+      },
+      "ValueType": "Linx.CSharpExpression"
+    }
+  ]
+}

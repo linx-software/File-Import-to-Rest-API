@@ -1,0 +1,21 @@
+{
+  "Id": "EsLW",
+  "Name": "Customer",
+  "Properties": [
+    {
+      "Id": "ZF5b",
+      "Name": "Name",
+      "Type": "Compiled:String"
+    },
+    {
+      "Id": "KWIg",
+      "Name": "Surname",
+      "Type": "Compiled:String"
+    },
+    {
+      "Id": "axfE",
+      "Name": "Number",
+      "Type": "Compiled:String"
+    }
+  ]
+}

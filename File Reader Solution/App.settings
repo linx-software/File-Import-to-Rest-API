@@ -1,0 +1,8 @@
+[
+  {
+    "Id": "Qi4W",
+    "Name": "BaseURI",
+    "Type": "Compiled:String",
+    "Value": "http://localhost:8080/service"
+  }
+]

@@ -1,0 +1,66 @@
+{
+  "ExecutionPaths": [
+    {
+      "PluginId": "ForEachLine",
+      "Name": "ForEachLine",
+      "Result": "Generated:mnxe",
+      "Order": 0,
+      "IterationHint": "ZeroOrMore"
+    }
+  ],
+  "Properties": [
+    {
+      "Id": "Encoding",
+      "Type": "Compiled:Twenty57.Linx.Plugins.File.Common.FileReadWrite.Encoding, Twenty57.Linx.Plugins.File, Version=1.0.4.0, Culture=neutral, PublicKeyToken=null",
+      "ValueUsage": "DesignTime",
+      "Value": "Default"
+    },
+    {
+      "Id": "Fields",
+      "Type": "Compiled:Twenty57.Linx.Plugins.File.TextFileRead.TextFileReaderFields, Twenty57.Linx.Plugins.File, Version=1.0.4.0, Culture=neutral, PublicKeyToken=null",
+      "ValueUsage": "DesignTime",
+      "Value": {
+        "SkipHeaderLines": 1,
+        "SkipFooterLines": 0,
+        "FileFormat": "CommaDelimited",
+        "TextQualifier": "None",
+        "OtherDelimiter": "",
+        "FieldList": [
+          {
+            "Name": "Name",
+            "Skip": false,
+            "Format": "",
+            "Length": 0,
+            "TypeReference": "Compiled:String"
+          },
+          {
+            "Name": "Surname",
+            "Skip": false,
+            "Format": "",
+            "Length": 0,
+            "TypeReference": "Compiled:String"
+          },
+          {
+            "Name": "Number",
+            "Skip": false,
+            "Format": "",
+            "Length": 0,
+            "TypeReference": "Compiled:String"
+          }
+        ]
+      }
+    },
+    {
+      "Id": "File path",
+      "Type": "Compiled:String",
+      "ValueUsage": "RuntimeRead",
+      "Value": null
+    },
+    {
+      "Id": "Return options",
+      "Type": "Compiled:Twenty57.Linx.Plugins.File.TextFileRead.FileReadOptions, Twenty57.Linx.Plugins.File, Version=1.0.4.0, Culture=neutral, PublicKeyToken=null",
+      "ValueUsage": "DesignTime",
+      "Value": "LineByLine"
+    }
+  ]
+}

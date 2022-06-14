@@ -1,0 +1,22 @@
+{
+  "Properties": [
+    {
+      "Id": "Source",
+      "Type": "Generated:MtEq",
+      "ValueUsage": "RuntimeRead",
+      "Value": "{\"HttpContext\":{\"Headers\":[], \"Cookies\":[], \"Items\":[]}, \"ResponseBody\":[]}",
+      "ValueType": "String"
+    },
+    {
+      "Id": "Target",
+      "Type": "Generated:MtEq",
+      "ValueUsage": "RuntimeWrite",
+      "Value": {
+        "Expression": "$.Result",
+        "CompiledExpression": "={0}",
+        "Type": "Generated:MtEq"
+      },
+      "ValueType": "Linx.CSharpExpression"
+    }
+  ]
+}
