@@ -8,7 +8,7 @@
 
 ## Contributing
 
-For questions please ask the [Linx community](https://linx/software/community) or use the [Slack channel](https://linxsoftware.slack.com/archives/C01FLBC1XNX). 
+For questions please ask the [Linx community](https://linx/software/community). 
 
 ## License
 
