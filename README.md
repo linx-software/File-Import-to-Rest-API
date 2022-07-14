@@ -4,7 +4,7 @@
 
 [Linx](https://linx.software/) solution created for illistrating the Linx 6 designer. The solution has is a very simplefile reader, that reads a csv file and makes the data availalbe via a REST service. 
 The below is a simple solution diagram:
-![Solution Diagram](SolutionDiagram.png)
+![Solution Diagram](Solution.png)
 
 The solution has:
 - A custom type named Customer that will contain customer data
