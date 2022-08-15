@@ -2,14 +2,12 @@
 
 ## Description
 
-[Linx](https://linx.software/) solution created for illistrating the Linx 6 designer. The solution has is a very simplefile reader, that reads a csv file and makes the data availalbe via a REST service. 
-The below is a simple solution diagram:
-![Solution Diagram](Solution.png)
+The solution is a simple file reader process. Linx will import and read a CSV file before making the data available via a REST service. 
 
 The solution has:
 - A custom type named Customer that will contain customer data
 - A process that loads data into a list of customers
-- A SimpleRESTHost that can be called to retreive the data loaded from the file
+- A SimpleRESTHost that can be called to retrieve the data loaded from the file
 
 ## Usage
 
